@@ -1,6 +1,6 @@
 ﻿namespace Snake
 {
-    class BoardMember
+    abstract class BoardMember
     {
         public int LocationX { get; set; }
         public int LocationY { get; set; }
